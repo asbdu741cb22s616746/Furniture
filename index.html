@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navleft">
+            <h2><i class="fa-solid fa-stairs"></i>ElegantInteriors</h2>
+        </div>
+        <div class="navright hide">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Resources<i class="fa-solid fa-caret-down"></i></li>
+                <li>Contact</li>
+                <a href="#" class="login">login</a>
+                <a href="#" class="get">Get Started</a>
+            </ul>
+        </div>
+        <i class="fa-solid fa-list"></i>
+    </div>
+
+
+    <div class="page1">
+        <h2>Sophisticated Designs <br>for Modern Living</h2>
+        <p>Elegant Designs, Exceptional Results,<br><span>Elevating Your Home's Aesthetic.</span></p><br>
+        <a href="#" class="but1">Get Started<i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+
+    <div class="img">
+        <img src="img2.jpg" alt="" class="img1">
+        <img src="img1.jpg" alt="" class="img2">
+    </div>
+
+    <div class="page2">
+        <div class="content">
+            <h2>What our clients say</h2>
+            <p>Our clients rave about the transformation of their spaces,<br>highlighting our attention to detail and
+                creative flair.</p>
+        </div>
+        <div class="detail">
+            <div class="one">
+                <img src="img3.png" alt="">
+                <p>Our living room was completely <br> transformed! <br>The team captured our vision perfectly <br> and exceeded our expectations.</p>
+                <img src="sm.png" alt="">
+            </div>
+            <div class="one">
+                <img src="img4.png" alt="">
+                <p>Our living room was completely <br> transformed! <br>The team captured our vision perfectly <br> and exceeded our expectations.</p>
+                <img src="sm.png" alt="">
+            </div>
+            <div class="one">
+                <img src="img5.png" alt="">
+                <p>Our living room was completely <br> transformed! <br>The team captured our vision perfectly <br> and exceeded our expectations.</p>
+                <img src="sm.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector(".fa-list").onclick = function () {
+            document.querySelector(".navright").classList.toggle("hide")
+        }
+    </script>
+</body>
+
+</html>
